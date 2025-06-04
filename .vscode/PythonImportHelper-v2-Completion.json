@@ -1,0 +1,54 @@
+[
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "resta",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def suma(a, b):\n    return a + b\ndef resta(a, b):\n    return a - b\nif __name__ == \"__main__\":\n    print(\"Suma 2 + 3 =\", suma(2, 3))\n    print(\"Resta 5 - 2 =\", resta(5, 2))",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "resta",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def resta(a, b):\n    return a - b\nif __name__ == \"__main__\":\n    print(\"Suma 2 + 3 =\", suma(2, 3))\n    print(\"Resta 5 - 2 =\", resta(5, 2))",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "TestOperaciones",
+        "kind": 6,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "class TestOperaciones(unittest.TestCase):\n    def test_suma(self):\n        self.assertEqual(suma(2, 3), 5)\n    def test_resta(self):\n        self.assertEqual(resta(5, 0), 3)\nif __name__ == \"__main__\":\n    unittest.main()",
+        "detail": "tests.test_main",
+        "documentation": {}
+    }
+]
