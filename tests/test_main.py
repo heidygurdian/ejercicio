@@ -6,7 +6,7 @@ class TestOperaciones(unittest.TestCase):
         self.assertEqual(suma(2, 3), 5)
 
     def test_resta(self):
-        self.assertEqual(resta(5, 2), 3)
+        self.assertEqual(resta(5, 1), 3)
 
 if __name__ == "__main__":
     unittest.main()
